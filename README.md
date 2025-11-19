@@ -14,9 +14,10 @@ are mentioned in the ```requirement.txt```. Unless there is an error during inst
 is removed to automatically install the package version that is compatible with other installed packages.
 During package installations, the following error also appears:
 
-```bash
+```
 ERROR: Could not find a version that satisfies the requirement en-core-web-sm==2.1.0
 ERROR: No matching distribution found for en-core-web-sm==2.1.0
+```
 
 The solution is:
 
