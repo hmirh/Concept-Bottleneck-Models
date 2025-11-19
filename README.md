@@ -17,14 +17,12 @@ During package installations, the following error also appears:
 ```bash
 ERROR: Could not find a version that satisfies the requirement en-core-web-sm==2.1.0
 ERROR: No matching distribution found for en-core-web-sm==2.1.0
-```bash
 
 The solution is:
 
 ```bash
 pip install https://github.com/explosion/spacy-models/releases/download/en_core_web
 _sm-2.1.0/en_core_web_sm-2.1.0.tar.gz}
-```bash
 
 To run the codes mentioned in this repository, there are some prerequisite files, such as the official
 CUB dataset (CUB 200 2011), processed CUB data (CUB processed), places365 dataset (places365),
