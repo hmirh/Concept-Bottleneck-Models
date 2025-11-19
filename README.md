@@ -6,7 +6,7 @@ The code provided on the Concept bottleneck model GitHub contains numerous issue
 it difficult to run and duplicate the results in paper. The GitHub repository of the concept bottleneck
 model is in https://github.com/yewsiang/ConceptBottleneck. This project needs a list of packages.
 To begin with, a Conda environment is created to install these main packages. Based on the instruction,
-pip install -r requirements.txt should be run which contains all the required packages. However,
+```pip install -r requirements.txt``` should be run which contains all the required packages. However,
 a bunch of errors appeared that are related to the mismatched versions of packages. Solving one error
 leads to the appearance of another error. Due to this fact, each of these packages is installed separately
 with pip install package name. At first, it tries to install the exact version of those packages that
