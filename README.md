@@ -10,16 +10,22 @@ To begin with, a Conda environment is created to install these main packages. Ba
 a bunch of errors appeared that are related to the mismatched versions of packages. Solving one error
 leads to the appearance of another error. Due to this fact, each of these packages is installed separately
 with pip install package name. At first, it tries to install the exact version of those packages that
-are mentioned in the requirement.txt. Unless there is an error during installation, the version number
+are mentioned in the ```requirement.txt```. Unless there is an error during installation, the version number
 is removed to automatically install the package version that is compatible with other installed packages.
 During package installations, the following error also appears:
 
-
+```bash
 ERROR: Could not find a version that satisfies the requirement en-core-web-sm==2.1.0
 ERROR: No matching distribution found for en-core-web-sm==2.1.0
+```bash
+
 The solution is:
+
+```bash
 pip install https://github.com/explosion/spacy-models/releases/download/en_core_web
 _sm-2.1.0/en_core_web_sm-2.1.0.tar.gz}
+```bash
+
 To run the codes mentioned in this repository, there are some prerequisite files, such as the official
 CUB dataset (CUB 200 2011), processed CUB data (CUB processed), places365 dataset (places365),
 and pretrained Inception V3 models (pretrained) that should be downloaded from the Codalab work-
