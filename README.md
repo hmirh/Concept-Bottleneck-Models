@@ -2,7 +2,7 @@
 
 ## Code description:
 
-he code provided on the Concept bottleneck model GitHub contains numerous issues which make
+The code provided on the Concept bottleneck model GitHub contains numerous issues which make
 it difficult to run and duplicate the results in paper. The GitHub repository of the concept bottleneck
 model is in https://github.com/yewsiang/ConceptBottleneck. This project needs a list of packages.
 To begin with, a Conda environment is created to install these main packages. Based on the instruction,
@@ -13,6 +13,8 @@ with pip install package name. At first, it tries to install the exact version o
 are mentioned in the requirement.txt. Unless there is an error during installation, the version number
 is removed to automatically install the package version that is compatible with other installed packages.
 During package installations, the following error also appears:
+
+
 ERROR: Could not find a version that satisfies the requirement en-core-web-sm==2.1.0
 ERROR: No matching distribution found for en-core-web-sm==2.1.0
 The solution is:
