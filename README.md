@@ -1,4 +1,6 @@
-# Concept-Bottleneck-Models
+## Concept-Bottleneck-Models
+
+#The GitHub repository of the concept bottleneck model is in https://github.com/yewsiang/ConceptBottleneck.
 
 Make the conda environment with the name of bottleneck
 
